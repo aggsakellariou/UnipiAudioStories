@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:amdroid="http://schemas.android.com/tools"
+    android:layout_margin="1dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        amdroid:background="?attr/colorPrimary"
+        android:layout_margin="0dp">
+
+        <ImageView
+            android:id="@+id/storyImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/label_image"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/storyTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/storyImage"
+            android:text="@string/label_title"
+            android:textStyle="bold"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/labelStoryAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/storyTitle"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/storyImage"
+            android:text="@string/label_author"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/storyAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/storyTitle"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/labelStoryAuthor"
+            android:text="@string/label_author"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/labelStoryYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/storyAuthor"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/storyImage"
+            android:text="@string/label_year"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/storyYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/storyAuthor"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/labelStoryYear"
+            android:text="@string/label_year"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

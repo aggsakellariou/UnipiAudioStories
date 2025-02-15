@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UnipiAudioStories</string>
+    <string name="label_title">Τίτλος:</string>
+    <string name="label_author">Συγγραφέας:</string>
+    <string name="label_year">Έτος:</string>
+    <string name="label_image">εικόνα ιστορίας</string>
+
+    <string name="title_activity_story_details">StoryDetailsActivity</string>
+    <string name="statistics">Στατιστικά</string>
+    <string name="exit">Έξοδος</string>
+    <string name="statistics_favorite_story">Αγαπημένη ιστορία</string>
+    <string name="back">Πίσω</string>
+    <string name="story_title">Τίτλος ιστορίας</string>
+    <string name="story_description">Περιγραφή ιστορίας</string>
+    <string name="hear_story">Ακούστε την ιστορία</string>
+    <string name="error_getting_documents">Σφάλμα λήψης εγγράφων: </string>
+    <string name="story_added_successfully">Η ιστορία προστέθηκε επιτυχώς</string>
+    <string name="failed_to_add_story">Απέτυχε να προσθέσει ιστορία</string>
+    <string name="no_data_available">Δεν υπάρχουν διαθέσιμα στοιχεία</string>
+    <string name="tts_initialization_failed">Η αρχικοποίηση TextToSpeech απέτυχε</string>
+    <string name="favorite_story">Αγαπημένη ιστορία: </string>
+    <string name="invalid_story_id">Μη έγκυρο αναγνωριστικό ιστορίας</string>
+    <string name="story_not_found">Μη έγκυρο αναγνωριστικό ιστορίας</string>
+    <string name="error_fetching_story">Σφάλμα ανάκτησης ιστορίας: </string>
+    <string name="language">Γλώσσα</string>
+    <string name="times">φορές</string>
+    <string name="heard">Ακούστηκε</string>
+    <string name="read_statistics">Διάβάσε τα στατιστικά</string>
+
+</resources>

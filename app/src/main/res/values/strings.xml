@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">UnipiAudioStories</string>
+    <string name="label_title">Title:</string>
+    <string name="label_author">Author:</string>
+    <string name="label_year">Year:</string>
+    <string name="label_image">storie image</string>
+
+    <string name="title_activity_story_details">StoryDetailsActivity</string>
+    <string name="statistics">Statistics</string>
+    <string name="exit">Exit</string>
+    <string name="statistics_favorite_story">Favorite Story</string>
+    <string name="back">Back</string>
+    <string name="story_title">Story Title</string>
+    <string name="story_description">Story Description</string>
+    <string name="hear_story">Hear Story</string>
+    <string name="error_getting_documents">Error getting documents: </string>
+    <string name="story_added_successfully">Story added successfully</string>
+    <string name="failed_to_add_story">Failed to add story</string>
+    <string name="no_data_available">No data available</string>
+    <string name="tts_initialization_failed">TextToSpeech initialization failed</string>
+    <string name="favorite_story">Favorite Story: </string>
+    <string name="invalid_story_id">Invalid story ID</string>
+    <string name="story_not_found">Story not found</string>
+    <string name="error_fetching_story">Error fetching story: </string>
+    <string name="language_english" translatable="false">English</string>
+    <string name="language_greek" translatable="false">Ελληνικά</string>
+    <string name="language_spanish" translatable="false">Español</string>
+    <string name="language">Language</string>
+    <string-array name="language_options">
+        <item>@string/language_english</item>
+        <item>@string/language_greek</item>
+        <item>@string/language_spanish</item>
+    </string-array>
+    <string name="times">times</string>
+    <string name="heard">Heard</string>
+    <string name="read_statistics">Read Statistics</string>
+
+</resources>

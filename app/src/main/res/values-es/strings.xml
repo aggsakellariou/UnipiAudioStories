@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UnipiAudioStories</string>
+    <string name="label_title">Título:</string>
+    <string name="label_author">Autor:</string>
+    <string name="label_year">Año:</string>
+    <string name="label_image">historia de la imagen</string>
+
+    <string name="title_activity_story_details">StoryDetailsActivity</string>
+    <string name="statistics">Estadísticas</string>
+    <string name="exit">Salida</string>
+    <string name="statistics_favorite_story">Salida</string>
+    <string name="back">Volver</string>
+    <string name="story_title">Título del artículo</string>
+    <string name="story_description">Descripción de la historia</string>
+    <string name="hear_story">Escuchar la historia</string>
+    <string name="error_getting_documents">Error al obtener documentos: </string>
+    <string name="story_added_successfully">Historia añadida con éxito</string>
+    <string name="failed_to_add_story">No se ha podido añadir la historia</string>
+    <string name="no_data_available">No hay datos disponibles</string>
+    <string name="tts_initialization_failed">Error en la inicialización de TextToSpeech</string>
+    <string name="favorite_story">Historia favorita: </string>
+    <string name="invalid_story_id">ID de historia no válida</string>
+    <string name="story_not_found">Historia no encontrada</string>
+    <string name="error_fetching_story">Error al buscar la historia: </string>
+    <string name="language">Idioma</string>
+    <string name="times">veces</string>
+    <string name="heard">Heard</string>
+    <string name="read_statistics">Leer estadísticas</string>
+
+</resources>
