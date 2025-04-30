@@ -18,14 +18,12 @@
 - Dedicated Statistics Activity that shows:  
   - Total number of story readings  
   - Most frequently played stories  
-- (Optional) Voice command support for navigation (e.g., open statistics screen)  
 - Optimized layout and UI for both smartphones and tablets using responsive components (e.g., CardView)
 
 ## Technical Details
 
 - Developed for Android using Java (and optionally Kotlin)  
 - Firebase Cloud Firestore for real-time story content updates  
-  - Fallback option: local SQLite database (with score penalty if used)  
 - Uses Android's `TextToSpeech` API for narration  
 - Language support via `strings.xml` for three UI languages  
 - Persistent storage of user interaction data using `SharedPreferences`  
